@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="asseste/css/logst.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>تسجيل الدخول</h1>
+        <form id="loginform" action="onlineExam/quiz.html" method="get">
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password :</label>
+                <input type="password" id="password" name="password" placeholder="password">
+            </div>
+            <button type="submit" id="login">Login</button>
+            <button type="button" onclick="window.location.href='register.html'">Go to Register</button>
+        </form>
+    </div>
+
+    <script src="asseste/js/logvalid.js"></script>
+</body>
+
+</html>

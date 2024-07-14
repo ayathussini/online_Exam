@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <form id="regform" action="log/loginn.html" method="get">
+            <div class="form-group">
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="age">Age :</label>
+                <input type="number" id="age" name="age" placeholder="Age">
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone :</label>
+                <input type="tel" id="phone" name="phone" placeholder="phone">
+            </div>
+            <div class="form-group">
+                <label for="password">Password :</label>
+                <input type="password" id="password" name="password" placeholder="password">
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+                <span id="error"></span>
+            </div>
+            <button type="submit" id="sub">Submit</button>
+            <button type="button" onclick="window.location.href='log/loginn.html'">Go to Login</button>
+        </form>
+    </div>
+
+    <script src="assests/js/valid.js"></script>
+</body>
+
+</html>

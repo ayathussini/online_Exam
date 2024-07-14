@@ -1,0 +1,166 @@
+/* General Styles */
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz_app {
+    background-color: #f4f3f3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+}
+
+/* Exam Info Styles */
+.exam_info {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dd6d48;
+    padding-bottom: 10px;
+}
+.quiz_app .quiz_area{
+    display: flex;
+}
+.quiz_app .quiz_area .count{
+    flex: 1;
+    text-align: right;
+}
+.quiz_app .answer_area .answer{
+    background-color: #ededed;
+    padding: 5px;
+}
+.quiz_app .answer_area .answer:not(:last-child){
+    border-bottom: 1px solid #dfdfdf;
+}
+.quiz_app .answer_area .answer input[type="radio"]:checked +label{
+    color: #cb4c1a;
+}
+.quiz_app .answer_area .answer label{
+    cursor: pointer;
+    font-weight: bold;
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
+.exam_info .category,
+.exam_info .count {
+    margin-bottom: 5px;
+}
+
+.exam_info span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Quiz Area Styles */
+.quiz_area h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Answer Area Styles */
+.answer_area {
+    margin-bottom: 20px;
+}
+
+.answer {
+    margin-bottom: 10px;
+}
+
+.answer input {
+    margin-right: 10px;
+}
+
+/* Button Styles */
+.submit_button {
+    background-color: #b84c27;
+        color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.submit_button:hover {
+    background-color: #c46a3d;
+}
+
+/* Bullets and Countdown Styles */
+.bullets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quiz-app .bullets .spans {
+    flex: 1;
+    display: flex;
+}
+
+.quiz_app .bullets .spans span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.quiz_app .bullets .spans span.on{
+     background-color: #bf532f;;
+}
+
+
+.countdowen {
+    font-size: 18px;
+    color: #333;
+}
+
+.countdowen .minuites,
+.countdowen .seconds {
+    font-weight: bold;
+}
+
+/* Results Styles */
+.results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    text-align: center;
+    
+    font-weight: bold;
+}
+.quiz_app .results span{
+    font-weight: bold;
+}
+.quiz_app .results span.bad {
+   color: #585656;
+}
+.quiz_app .results span.good {
+    color:salmon ;
+}
+.quiz_app .results span.perfect {
+    color:rgb(232, 66, 47) ;
+}
+
+
+
+
+
+

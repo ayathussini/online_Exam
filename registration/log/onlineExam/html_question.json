@@ -1,0 +1,85 @@
+[
+    {
+        "title":"why we use the br ?",
+        "answer_1":"to make text bold",
+        "answer_2": "to make text italic",
+        "answer_3": "to make breakline",
+        "answer_4": "to make text small",
+        "right_answer":"to make breakline"
+
+    },
+    {
+        "title": "What is the capital of France?",
+        "answer_1": "Berlin",
+        "answer_2": "Rome",
+        "answer_3": "Madrid",
+        "answer_4": "Paris",
+        "right_answer": "Paris"
+    },
+    {
+            "title": "Which planet is known as the Red Planet?",
+            "answer_1": "Mars",
+            "answer_2": "Earth",
+            "answer_3": "Venus",
+            "answer_4": "Jupiter",
+            "right_answer": "Mars"
+    },
+    {
+            "title": "Who wrote 'To Kill a Mockingbird'?",
+            "answer_1": "J.K. Rowling",
+            "answer_2": "Harper Lee",
+            "answer_3": "George Orwell",
+            "answer_4": "Ernest Hemingway",
+            "right_answer": "Harper Lee"
+    },
+    {
+            "title":"What is the largest ocean on Earth?",
+            "answer_1": "Pacific Ocean",
+            "answer_2": "Arctic Ocean",
+            "answer_3": "Atlantic Ocean",
+            "answer_4": "Indian Ocean",
+            "right_answer": "Pacific Ocean"
+    },
+    {
+            "title": "In which year did the Titanic sink?",
+            "answer_1": "1923",
+            "answer_2": "1898",
+            "answer_3": "1905",
+            "answer_4": "1912",
+            "right_answer": "1912"
+    },
+    {
+            "title": "What is the chemical symbol for gold?",
+            "answer_1": "Fe",
+            "answer_2": "Pb",
+            "answer_3": "Au",
+            "answer_4":"Ag",
+            "right_answer": "Au"
+    },
+    {
+            "title": "Who painted the Mona Lisa?",
+            "answer_1": "Leonardo da Vinci",
+            "answer_2": "Vincent van Gogh",
+            "answer_3": "Pablo Picasso",
+            "answer_4": "Claude Monet",
+            "right_answer":"Leonardo da Vinci"
+    },
+    {
+        "title": "What is the hardest natural substance on Earth?",
+        "answer_1": "Gold",
+        "answer_2": "Diamond",
+        "answer_3": "Iron",
+        "answer_4": "Silver",
+        "right_answer": "Diamond"
+    },
+    {
+        "title": "Who developed the theory of relativity?",
+        "answer_1": "Albert Einstein",
+        "answer_2": "Nikola Tesla",
+        "answer_3": "Galileo Galilei",
+        "answer_4": "Isaac Newton",
+        "right_answer": "Albert Einstein"
+    }     
+    
+       
+    ]        
